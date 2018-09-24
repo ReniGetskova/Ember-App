@@ -1,0 +1,29 @@
+<table id="employee-details-table" class="table table-hover">
+  <thead class="thead-dark">
+    <tr>
+      <th scope="col" colspan="2">Employee details</th>
+    </tr>
+  </thead>
+  <tbody>
+        <tr>
+            <th>Fullname</th>
+            <td>{{model.first_name}} {{model.surname}}</td>
+        </tr>
+        <tr>
+            <th>Salary</th>
+            <td>{{model.salary}}</td>
+        </tr>
+        <tr>
+            <th>Take-home pay</th>
+            <td>{{model.take_home}}</td>
+        </tr>
+        <tr>
+            <th>Income tax</th>
+            <td>{{model.income_tax}}</td>
+        </tr>
+        <tr>
+            <th>National insurance</th>
+            <td>{{model.national_insurance}}</td>
+        </tr>
+  </tbody>
+</table>

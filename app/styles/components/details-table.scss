@@ -1,0 +1,22 @@
+#employee-details-table {
+    thead {
+        th {
+            text-align: center;
+        }
+    }
+
+    tbody {
+        tr {
+            th {
+                text-align: right; 
+                width: 50%; 
+                border-right: 1px solid #dee2e6;
+            }
+
+            &:last-of-type {
+                border-bottom: 1px solid #dee2e6;
+            }
+        }
+        
+    }
+}
